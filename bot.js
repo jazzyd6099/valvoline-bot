@@ -1,6 +1,16 @@
 const fs = require('fs');
 const Discord = require("discord.js");
 const { prefix } = require('./config.json');
+		    
+var x = [
+    1,
+    2,
+    3,
+    4,
+    5,
+]
+
+var output = x[Math.floor(Math.random()*x.length)];
 
 client.on('reconnecting', () => console.warn('Reconnecting...'))
 	
